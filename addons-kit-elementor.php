@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Addons Kit Elementor
+ * Plugin Name: Addons Kit For Elementor
  * Description: The Addons Kit plugin you install after Elementor!
  * Plugin URI: https://addonskit.com/
  * Author: nazmunsakib
