@@ -56,7 +56,7 @@ define('ADDONS_KIT_MINIMUM_PHP_VERSION', '5.4');
  *
  * @return void Some voids are not really void, you have to explore to figure out why not!
  */
-function addons_kit_begin(){
+function addons_kit_start(){
 
     //require( HAPPY_ADDONS_DIR_PATH . 'inc/functions.php' );
 
@@ -90,7 +90,7 @@ function addons_kit_begin(){
     \Addons_Kit\Elementor\Addons_Kit::instance();
 }
 
-add_action('plugins_loaded', 'addons_kit_begin');
+add_action('plugins_loaded', 'addons_kit_start');
 
 /**
  * Admin notice for required php version
