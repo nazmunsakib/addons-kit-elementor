@@ -64,7 +64,6 @@ class Testimonial_Slider extends Widget_Base{
 		];
 	}
 
-
 	/**
 	 * Testimonial slider control register here
 	 *
