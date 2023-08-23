@@ -38,7 +38,7 @@ final class Addons_Kit {
 	 */
 	public function load_textdomain() {
 		load_plugin_textdomain(
-			'addons-kit',
+			'addons-kit-elementor',
 			false,
 			dirname( ADDONS_KIT_PLUGIN_BASENAME ) . '/languages/'
 		);
@@ -98,9 +98,9 @@ final class Addons_Kit {
 	public function add_new_category( Elements_Manager $elements_manager ) {
 
 		$elements_manager->add_category(
-			'addons_kit_category',
+			'addons-kit-elementor',
 			[
-				'title' => __( 'Addons Kit', 'addons-kit' ),
+				'title' => __( 'Addons Kit', 'addons-kit-elementor' ),
 				'icon' => 'fa fa-smile-o',
 			]
 		);

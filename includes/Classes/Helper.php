@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons_kit\Classes;
+namespace Addons_kit\Elementor\Classes;
 
 defined( 'ABSPATH' ) || die();
 

@@ -6,13 +6,13 @@
  * Author: nazmunsakib
  * Version: 1.0.0
  * Author URI: https://nazmunsakib.com/
- * Text Domain: addons-kit
+ * Text Domain: addons-kit-elementor
  * Domain Path: /languages
  *
  * Elementor tested up to: 3.13.4
  * Elementor Pro tested up to: 3.13.2
  * 
- * @package AddonsKit
+ * @package Addons_Kit
  */
 
 /*
